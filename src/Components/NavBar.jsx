@@ -46,7 +46,7 @@ const NavBar = () => {
         </div>
 
         {nav && (
-            <ul className='flex flex-col justify-center content-end items-center absolute bg-white  top-16 left-0 w-full h-screen '>
+            <ul className='flex flex-col justify-center content-end items-center absolute bg-white  top-16 left-0 w-full h-screen divide-y divide-grey'>
             {links.map(({link, id}) => (
                     <li 
                     key={id} className='px-4 cursor-pointer capitalize py-6 text-2xl'>
