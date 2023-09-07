@@ -6,7 +6,7 @@ const Home = () => {
     <div name="home" className='flex items-baseline justify-center h-screen w-full bg-white'>
         <div className='flex-wrap laptop:flex laptop:pt-14 desktop:flex '>
             <div className='items-center justify-center laptop:pr-10'>
-                <img className='w-[276px] h-[289px] mx-[45px] my-12 laptop:w-[376px] laptop:h-[389px] desktop:w-[476px] desktop:h-[489px]' src={heroImage} alt='heroimage'></img>
+                <img className='w-[276px] h-[289px] mx-[45px] my-12 tablet:w-[356px] tablet:h-[369px] laptop:w-[376px] laptop:h-[389px] desktop:w-[476px] desktop:h-[489px]' src={heroImage} alt='heroimage'></img>
             </div>
 
             <div className='flex justify-center items-center laptop:pl-6'>

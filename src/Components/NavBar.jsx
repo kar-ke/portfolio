@@ -41,7 +41,7 @@ const NavBar = () => {
             ))}
         </ul>
 
-        <div onClick={() => setNav(!nav)} className='cursor-pointer pr-2 z-10 text-black laptop:hidden desktop:hidden'>
+        <div onClick={() => setNav(!nav)} className='cursor-pointer pr-2 z-10 text-black  laptop:hidden desktop:hidden'>
             {nav ? <LiaTimesSolid size={30} /> : <RxHamburgerMenu size={30} />}
         </div>
 
