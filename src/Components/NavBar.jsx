@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
-import { RxHamburgerMenu } from "react-icons/rx"
-import { LiaTimesSolid } from "react-icons/lia"
+import React, { useState } from 'react';
+import { RxHamburgerMenu } from "react-icons/rx";
+import { LiaTimesSolid } from "react-icons/lia";
+import logo from "../Asserts/logo-black-removebg-preview.png"
 
 const NavBar = () => {
 
-    const [nav, setNav] = useState(false)
+    const [nav, setNav] = useState(false);
     
     const links = [
         {
@@ -28,7 +29,7 @@ const NavBar = () => {
   return (
     <div className='flex justify-between items-center w-full h-20  lg:px-24 md:px-16 px-4 text-black bg-white'>
         <div>
-            <h1 className='text-xl font-semibold'>karke.</h1>
+            <img className='w-16 pb-1.5'  src={logo} alt='logo'></img>
         </div>
         <ul className='hidden md:flex lg:flex'>
             {links.map(({link, id}) => (
