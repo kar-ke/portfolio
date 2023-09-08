@@ -1,9 +1,10 @@
 import React from 'react';
 import heroImage from '../Asserts/heroimg-removebg-preview.png';
 
+
 const Home = () => {
   return (
-    <div name="home" className='flex items-baseline justify-center laptop:h-screen desktop:h-screen  w-full bg-white'>
+    <div name="home" className='flex items-baseline justify-center laptop:min-h-min desktop:min-h-max  w-full bg-white'>
         <div className='flex-wrap laptop:flex laptop:pt-14 desktop:flex '>
             <div className='items-center justify-center laptop:pr-10'>
                 <img className='w-[276px] h-[289px] mx-[45px] my-12 tablet:w-[356px] tablet:h-[369px] laptop:w-[376px] laptop:h-[389px] desktop:w-[476px] desktop:h-[489px]' src={heroImage} alt='heroimage'></img>
@@ -16,8 +17,8 @@ const Home = () => {
                     <h4 className='py-1 text-l font-medium text-[#454545]  desktop:text-xl'>a frontend developer based in bengalore.</h4>
                 </div>
             </div>
-            
         </div>
+        
     </div>
   )
 }
