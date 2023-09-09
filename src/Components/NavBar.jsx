@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { LiaTimesSolid } from "react-icons/lia";
 import logo from "../Asserts/logo-black-removebg-preview.png"
+import { Link } from "react-scroll";
 
 const NavBar = () => {
 
@@ -22,7 +23,7 @@ const NavBar = () => {
         },
         {
             id: 4,
-            link: "contact"
+            link: "Contact"
         }
     ]
 
@@ -36,7 +37,7 @@ const NavBar = () => {
                 <li 
                 key={id} 
                 className='px-4 cursor-pointer capitalize font-normal hover:text-purple-600 text-black hover:scale-105'>
-                {link}
+                <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
             ))}
         </ul>
@@ -50,7 +51,7 @@ const NavBar = () => {
             {links.map(({link, id}) => (
                     <li 
                     key={id} className='px-4 cursor-pointer capitalize py-6 text-2xl'>
-                    {link}
+                    <Link onClick={() => setNav(!nav)} to={link} smooth duration={500}>{link}</Link>
                     </li>
                 ))}
             </ul>

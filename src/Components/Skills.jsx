@@ -72,7 +72,7 @@ const Skills = () => {
         }
     ]
   return (
-    <div name="Skills" className=' mobile:mt-16  desktop:mt-24 laptop:mt-14'>
+    <div name="Experience" className=' mobile:mt-16  desktop:mt-24 laptop:mt-14'>
         <div className='flex flex-col justify-center items-center'>
                 <p className='text-[12px] font-medium text-[#454545]'>explore my</p>
                 <h1 className='text-3xl text-[#1D1D1D] font-semibold'>Experience</h1>
