@@ -19,10 +19,10 @@ const Footer = () => {
                 <p className='flex text-xl text-[#f1f1f1] font-semibold justify-center items-center py-8'>Social</p>
                 <div className='flex'>
                     <div className='flex flex-row gap-5'>
-                        <img className='h-8' alt='icons' src={twitter}></img>
-                        <img className='h-8' alt='icons' src={ig}></img>
-                        <img className='h-8' alt='icons' src={git}></img>
-                        <img className='h-8' alt='icons' src={linkedin}></img>
+                        <a href='https://twitter.com/karke__'><img className='h-8' alt='icons' src={twitter}></img></a>
+                        <a href='https://www.instagram.com/karke__'><img className='h-8' alt='icons' src={ig}></img></a>
+                        <a href='https://github.com/kar-ke'><img className='h-8' alt='icons' src={git}></img></a>
+                        <a href='https://www.linkedin.com/in/karke'><img className='h-8' alt='icons' src={linkedin}></img></a>
                     </div>
                 </div>
             </div>
