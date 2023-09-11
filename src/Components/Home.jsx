@@ -14,7 +14,7 @@ const Home = () => {
                 <div className='flex flex-col justify-center items-center laptop:items-start h-[110px]'>
                     <h6 className='py-1 font-medium text-[#454545] desktop:text-m desktop:py-2'>Hello, i'm</h6>
                     <h1 className='text-2xl text-[#1D1D1D] mobile:text-xl font-semibold desktop:text-3xl' >karthikeyan ramesh</h1>
-                    <h4 className='py-1 text-l font-medium text-[#454545]  desktop:text-xl'>a frontend developer based in bengalore.</h4>
+                    <h4 className='py-1 text-l font-medium text-[#454545]  desktop:text-xl'>a frontend developer based in bengalure.</h4>
                 </div>
             </div>
         </div>
