@@ -20,7 +20,7 @@ const About = () => {
                 <div className='flex flex-col justify-center items-center outline outline-offset-2 outline-1 outline-black-500 rounded-lg h-[140px] w-[350px] laptop:h-[170] laptop:w-[450px] desktop:w-[550px] desktop:h-[170px] mx-4 mt-12'>
                     <img className='h-10 w-10 mb-2' src={experience} alt='experience logo'></img>
                     <h1 className='text-xl font-semibold text-[#1D1D1D] '>Experience</h1>
-                    <p>2+ years </p>
+                    <p>1+ years </p>
                     <p>in fullstack development</p>
                 </div>
                 <div className='flex flex-col justify-center items-center outline outline-offset-2 outline-1 outline-black-500 rounded-lg h-[140px] w-[350px] laptop:h-[170] laptop:w-[450px] desktop:w-[550px] desktop:h-[170px] mobile:mx-4 mobile:my-6 tablet:mt-12 laptop:mt-12 desktop:mt-12'>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
             <div className=' my-8'>
-                    <p className='mx-6 tablet:mx-16 laptop:mx-40 desktop:mx-96 text-justify'>I'm Karthik, a passionate frontend developer based in the thriving tech hub of Bangalore, India, with over two years of experience, primarily in growth-stage startups.My journey in frontend development began with a Bachelor's degree in Computer Science and evolved through hands-on experience as a fullstack developer, giving me a holistic understanding of web development and the ability to bridge the gap between frontend and backend teams seamlessly.This unique background has equipped me to thrive in fast-paced startup environments, where clear communication and adaptability are crucial.</p> <br/>
+                    <p className='mx-6 tablet:mx-16 laptop:mx-40 desktop:mx-96 text-justify'>I'm Karthik, a passionate frontend developer based in the thriving tech hub of Bangalore, India, with over an year of experience, primarily in growth-stage startups.My journey in frontend development began with a Bachelor's degree in Computer Science and evolved through hands-on experience as a fullstack developer, giving me a holistic understanding of web development and the ability to bridge the gap between frontend and backend teams seamlessly.This unique background has equipped me to thrive in fast-paced startup environments, where clear communication and adaptability are crucial.</p> <br/>
                     <p className='mx-6 tablet:mx-16 laptop:mx-40 desktop:mx-96 text-justify'>
                     In my role as a frontend developer, I thrive on turning design visions into functional, user-friendly code, pushing the boundaries of web development. I relish the opportunity to take ownership of projects, rapidly develop and iterate, and consistently aim for excellence in my work. My experience in startups has honed my ability to pivot quickly and create delightful user experiences, ultimately driving better business outcomes for clients.
                     </p>

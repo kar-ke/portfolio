@@ -105,19 +105,6 @@ const Skills = () => {
                 </ul>
             </div>
         </div>
-        <div className='flex mobile:flex-col tablet:flex-row justify-center mobile:gap-8 tablet:gap-0 mt-8 laptop:mt-6 '>
-            <div className=' justify-center items-center outline outline-offset-2 outline-1 outline-black-500 rounded-lg mx-4  tablet:w-[52rem] laptop:w-[52rem] desktop:w-[70rem]'>
-                    <h1 className='flex text-xl text-[#1D1D1D] justify-center font-semibold my-6'>Designing tools</h1>
-                    <ul className='flex flex-wrap justify-center items-center py-6 gap-8  '>
-                        {links3.map(({link})=> (
-                            <li className='flex align-baseline my-4'>
-                                <img className='h-5 mx-2' src={verifiedlogo} alt='verifylogo'></img>
-                                <p className='text-2 font-semibold text-[#454545]'>{link}</p>
-                            </li>
-                        ))}
-                    </ul>
-            </div>
-        </div>
     </div>
   )
 }
