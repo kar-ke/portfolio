@@ -53,24 +53,7 @@ const Skills = () => {
         }
     ]
 
-    const links3 = [
-        {
-            id: 1,
-            link: "Figma"
-        },
-        {
-            id: 1,
-            link: "Photoshop"
-        },
-        {
-            id: 1,
-            link: "AdobeXd"
-        },
-        {
-            id: 1,
-            link: "illustrator"
-        }
-    ]
+ 
   return (
     <div name="Experience" className=' mobile:mt-16  desktop:mt-24 laptop:mt-14'>
         <div className='flex flex-col justify-center items-center'>
