@@ -24,13 +24,19 @@ const Projects = () => {
 						alt="project-1-img"
 						className=" rounded-3xl mx-8 my-8 "></img>
 					<div className="flex justify-center align-baseline pb-4">
-						<a href="https://github.com/kar-ke/todo">
+						<a
+							href="https://github.com/kar-ke/todo"
+							target="_blank"
+							rel="noopener noreferrer">
 							<img
 								src={gitLogo}
 								alt="proj img"
 								className="h-12 px-6"></img>
 						</a>
-						<a href="https://todododu.netlify.app/">
+						<a
+							href="https://todododu.netlify.app/"
+							target="_blank"
+							rel="noopener noreferrer">
 							<button className="text-xl outline  outline-gray-400 outline-1  py-3 px-8 tablet:px-4 rounded-full font-semibold text-[#1D1D1D] hover:text-[20pxc] duration-200">
 								demo
 							</button>
