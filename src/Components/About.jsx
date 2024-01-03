@@ -7,7 +7,7 @@ import { BiDownArrowAlt } from 'react-icons/bi';
 
 const About = () => {
   return (
-    <div name="About" className='mobile:mt-16 laptop:mt-0 desktop:mt-16'>
+    <section name="About" className='mobile:mt-16 laptop:mt-0 desktop:mt-16'>
         <div className='flex justify-center mb-6  animate-bounce'>
             <BiDownArrowAlt size={28} />
         </div>
@@ -38,7 +38,7 @@ const About = () => {
             </div>
             
         </div>
-    </div>
+    </section>
   )
 }
 
