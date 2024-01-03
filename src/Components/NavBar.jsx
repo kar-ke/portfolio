@@ -3,7 +3,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { LiaTimesSolid } from "react-icons/lia";
 import logo from "../Asserts/logo-black-removebg-preview.png";
 import { Link } from "react-scroll";
-import links from "../Content/Menuitems.js";
+import { links } from "../Content/Menuitems.js";
 
 const NavBar = () => {
 	const [nav, setNav] = useState(false);
@@ -11,7 +11,11 @@ const NavBar = () => {
 	return (
 		<div className="flex justify-between items-center w-full h-20  desktop:px-24 laptop:px-16 px-4 text-black bg-white">
 			<div>
-				<img loading="lazy" className="w-[80px] pb-1.5" src={logo} alt="logo"  ></img>
+				<img
+					loading="lazy"
+					className="w-[80px] pb-1.5"
+					src={logo}
+					alt="logo"></img>
 			</div>
 			<ul className="hidden laptop:flex desktop:flex">
 				{links.map(({ link, id }) => (
