@@ -73,7 +73,6 @@
     position: relative;
 }
 
-
 .quote-container img{
     position: absolute;
     top: 15%;
@@ -83,10 +82,12 @@
     opacity: .1;
 }
 
-.quote-content{
-    margin: auto;
-}
+.quote-content{margin: auto;}
 
-.authon{
-    font-size: 14px;
+/* Experience section  */
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
 }

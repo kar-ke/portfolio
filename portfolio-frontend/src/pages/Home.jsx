@@ -23,9 +23,13 @@ const Home = () => {
                         <img src={quoteIcon} alt="blockquote icon" /> 
                         <span className='quote-content'>Creativity without business is Victimization. <br /> 
                             Business without creativity is waste of time.</span>
-                        {/* <span className='authon'>Parell Williams</span> */}
                     </div>
                 </div> 
+            </section>
+
+            <section className="experience-section">
+                <Titletab title={'Experience'} />
+                <h3 className='title-xl mt10'>Where I've worked</h3>
             </section>
         </main>
     )
