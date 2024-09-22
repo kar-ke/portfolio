@@ -1,5 +1,4 @@
-import React from 'react'
-import './home.css';
+import React from 'react';
 import Titletab from '../components/Titletab';
 import quoteIcon from '../assets/icons/quotation.png';
 
@@ -9,7 +8,7 @@ const Home = () => {
             <section className='hero-section'>
                 <div className='hero-img'>
                     <p className='banner-content'>Hey, there I'm <span>Karthik_</span></p>
-                    <a href="#" className='resume-link'>my resume <span className='arrow'>&#8599;</span></a>
+                    <a href="https://drive.google.com/file/d/1P-GAWP__1pKLdWtR2wIcijsoaSBl9t5S/view?usp=drive_link" target='blank' className='resume-link'>my resume <span className='arrow'>&#8599;</span></a>
                 </div>
             </section>
 

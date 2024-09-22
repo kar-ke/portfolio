@@ -1,4 +1,12 @@
+
+/* global styles  */
 @import url('./styles/fonts.css');
 @import url('./styles/colors.css');
 @import url('./styles/global.css');
 @import url('./styles/utility-classes.css');
+
+/* page styles  */
+@import url('./styles/home.css');
+@import url('./styles/projects.css');
+
+/* responsive styles  */

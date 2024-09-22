@@ -24,5 +24,3 @@
     --f-regular : Poppins-Regular, "sans-serif";
     --f-semibold : Poppins-Semibold, "sans-serif";
 }
-
-.title-xl{ font-size: 26px; font-family: var(--f-semibold);}
