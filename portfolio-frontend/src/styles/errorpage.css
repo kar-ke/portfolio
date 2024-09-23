@@ -1,0 +1,8 @@
+.error-container{
+    height: calc(100vh - var(--h-footer));
+    background-image: url('../assets/images/err-page.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+

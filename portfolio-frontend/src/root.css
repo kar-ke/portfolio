@@ -8,5 +8,6 @@
 /* page styles  */
 @import url('./styles/home.css');
 @import url('./styles/projects.css');
-
+@import url('./styles/contact.css');
+@import url('./styles/errorpage.css');
 /* responsive styles  */
